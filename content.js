@@ -1,18 +1,18 @@
 const interval = setInterval(()=>{
-    const header = document.querySelector("._1QUKR")
+    const header = document.querySelector("yt-live-chat-header-renderer")
     if(header){
         console.log(header)
         clearInterval(interval)      
 
         const button = document.createElement("button")
-        button.innerHTML = "2x"
-        button.classList.add("twoTimesButton")
+        button.innerHTML = "Show Super Chat"
+        button.classList.add("showSuperChat")
     
         button.addEventListener("click",()=>{
-        const audios = document.querySelectorAll("audio");
-        audios.forEach((audio)=>{
-        console.log(audio)
-        audio.playbackRate = 2;
+        const superChat = document.querySelector("yt-live-chat-paid-message-renderer");
+        superChats.forEach((superChat)=>{
+        console.log(superChat)
+        
             })
         })
 
