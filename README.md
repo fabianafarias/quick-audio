@@ -1,9 +1,10 @@
-### quick-audio
+### superchat-save
 
-#Adicionando arquivos js, css e json para a criação de uma simples extensão para acelerar audios no WhatsApp Web.
+#Criação de uma simples extensão para armazenar superchats do youtube.
 
 ## Criar arquivo content.js
 
 ## Criar arquivo style.css
 
 ## Criar arquivo manisfest.json
+# superchat-show
